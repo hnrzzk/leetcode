@@ -10,7 +10,7 @@ public class No20IsValidTest {
     }
 
     @Test
-    public void test() throws FileNotFoundException {
+    public void test() {
         assertAnswer("()", true);
         assertAnswer("()[]{}", true);
         assertAnswer("(]", false);
